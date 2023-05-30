@@ -21,3 +21,15 @@ if percentage >= 70:
     print("passed")
 else:
     print("failed")
+    
+    if percentage>=80:
+    print("A-One Grade")
+elif percentage>=70:
+    print("A Grade")
+elif percentage>=60:
+    print("B Grade")
+elif percentage>=50:
+    print("C Grade")
+else:
+    print("Failed")
+
