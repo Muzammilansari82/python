@@ -1,0 +1,39 @@
+location = "karachi"
+pay = 50000
+
+if location == "karachi" and pay == 50000:
+    print("1 True")
+else:
+    print("1 False")
+
+location = "islamabad"
+pay = 50000
+
+if location == "islamabad" and pay == 50000:
+    print("2 True")
+else:
+    print("2 False")
+
+location = "Quetta"
+pay = 50000
+
+if location == "Quetta" and pay == 50000:
+    print("3 True")
+else:
+    print("3 False")
+
+location = "hydarabad"
+pay = 90
+
+if location == "hydarabad" and pay == 1:
+    print("4 True")
+else:
+    print("4 False")
+
+location = "California"
+pay = 25000
+
+if location == "California" and pay == 25000:
+    print("5 True")
+else:
+    print("5 False")
