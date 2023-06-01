@@ -1,0 +1,85 @@
+
+# while True:
+#     line = input('> ')
+#     if line[0] == 'hello':
+#         continue
+#     if line == '#':
+#         break
+#     print(line)
+# print("hello world:)")
+
+# a=0
+# while 5>a:
+#     a+=1
+#     cont=int(input('Enter the number:'))
+#     if cont==1:
+#         continue
+#     elif cont==2:
+#         print('pakistan')
+#     elif cont==3:
+#         break
+#     else:
+#         print('king')
+    
+# print('orange')
+
+# list = [10, 20, 30, 40, 50]
+# k = len(list)
+# for i in range(k):
+#     print(list[i])
+# print(k)
+
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+
+
+# thislist.reverse()
+# print(thislist)
+
+# thislist = ["apple", "banana", "cherry"]
+
+# thislist.insert(2, "watermelon")
+
+# print(thislist) 
+
+# cont1=int(input('Enter the number:'))
+# cont2=int(input('Enter the number:'))
+# cont3=int(input('Enter the number:'))
+# cont4=int(input('Enter the number:'))
+# cont5=int(input('Enter the number:'))
+# thislist = [cont1, cont2, cont3, cont4, cont5]
+# print(thislist)
+
+
+
+# thislist = ["apple", "banana", "cherry"]
+# thislist[0] = "blackcurrant, apple2" 
+# print(thislist)
+
+# this1list = [1, 2, 3]
+
+# this1list[1:1] = [4]
+
+# print(this1list)
+
+# a=0
+# i=[]
+# length=int(input("input your length"))
+# while a < length:
+#   a = a+1
+#   j=input("enter number")
+#   i.append(j)
+#   print(i)
+
+# j =[]
+# for i in range(3):
+#     k=(input("input your length"))
+#     j.append(k)
+# print(j)
+# a = j.reverse
+# print(a)
+
+
+
+
+
