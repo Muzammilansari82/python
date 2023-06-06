@@ -134,7 +134,31 @@
 # print(age.values())
 # print(age.keys())
 
+#  Write a python script to sort (ascending and desending) a dictionary by value;
 
+# bag = {99:3, 1:8, 23:2}
+# print(bag)
+# my_bag = list(bag.items())
+# my_bag.sort(reverse = True)
+# print('desending order is', my_bag)
+
+
+# Write apython script to concatenate three dictionaries to create a new one;
+# game = {'my','polo','you','football','he','circket'}
+# peak = {'k2','shigar','nanga parbat','gilgit','skardu','beautyful city but no light'}
+# peak = zip(game,peak)
+# print(peak)
+# d = list(peak)
+# print(d)
+
+# # Write a Python script to merge two Python dictionaries.
+# d1 = {'a': 100, 'b': 200}
+# d2 = {'x': 300, 'y': 200}
+# d3 = {'c': 400, 'd': 700}
+# d = d1.copy()
+# d.update(d3)
+# d.update(d2)
+# print(d)
 
 
 
