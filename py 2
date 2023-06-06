@@ -79,6 +79,63 @@
 # a = j.reverse
 # print(a)
 
+#next code
+#6/6/23
+
+# b = input('Enter language html or php: ')
+
+# if b == "html":
+#     a = 0
+#     i = []
+#     length = int(input("how many question you want to enter: "))
+
+#     while a < length:
+#         a = a + 1
+#         j = input("Enter your question:")
+#         i.append(j)
+    
+#     print("HTML questions:")
+#     print(i)
+
+# elif b == "php":
+#     a = 0
+#     ii = []
+#     length = int(input("how many question you want to enter: "))
+
+#     while a < length:
+#         a = a + 1
+#         j = input("Enter your question:")
+#         ii.append(j)
+    
+#     print("PHP questions: ")
+#     print(ii)
+
+# else:
+#     print("Invalid input. Please enter 'html' or 'php'.")
+# z = input("html or php:")
+# print("html",i) if z=="html"else print()
+# print(ii) if z=="php" else print()
+
+# dict1 = {1,2,15,3,4,14,5,6,13,7,8,9,10,11,12,}
+# print(dict1)
+# a = sorted(dict1)
+# print(dict1)
+# key1 = {'key': 'value'}
+
+# age = {'Alice': 12 ,'muzammil':18}
+# age2 = { 'Alice': 2020, 'muzammil': 2023}
+
+# a=dict(zip(age,age2))
+
+# for values in  age:
+#     print(values)
+    #  for muzammil in alice:
+    #     print(muzammil)
+# print(age.values())
+# print(age.keys())
+
+
+
 
 
 
