@@ -1,0 +1,48 @@
+# class animal:
+#     name=''
+
+#     def eat(self):
+#         print("animal is eating")
+# class birds:
+#     def fly(self):
+#         print("birds is flying")
+
+# class child(animal,birds):
+#     def __init__(self):
+#         print("this is oop")
+#     def sleep(self):
+#         print("sparow is sleep")
+#     def run(self):
+#         print("fox is running")
+
+# child1=child()
+# print(child1.fly())
+# print(child1.run())
+# print(child1.eat())
+# print(child1.sleep())
+
+# class c:
+#     name=''
+#     a=200
+#     def check(self):
+        
+#        print("c")  if c.a==20 else print("error")
+#     b=200
+# class anything1:
+#     def recheck(self):
+        
+#      print("anything") if c.b==20 else print("again error")
+
+# class any(c,anything1):
+#    def run(self):
+#      print("complte")if c.a==c.b else print("phir se error")
+
+# abc=any()
+# print(abc.check())
+# print(abc.recheck())
+# print(abc.run())
+
+
+
+    
+      
