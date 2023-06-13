@@ -42,6 +42,37 @@
 # print(abc.recheck())
 # print(abc.run())
 
+# import numpy as np
+
+# a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]], float)
+
+# print(a)
+
+# b = np.array([[1, 2, 3], [4, 5, 6]], float)
+# print(b.shape)
+# print(b.reshape(3, 2))
+
+# b = np.array([1, 2, 3, 4, 5, 6])
+# d = np.array([7, 8, 9, 10, 11, 12])
+
+# a = b
+# c = b.copy()
+# b[0] = 2
+# print(b)
+# print(c)
+# if b.any() == a.any() :print("equal")
+# else: print("not equal")
+# print("equal") if np.array_equal(b, d)  else print("not equal")
+
+# con = np.concatenate((b, d))
+# print(con)
+
+# stc = np.stack((b, d), axis=1)
+# print(stc)
+
+# a=int(input("Number of elements in the array:-"))
+# n=list(map(int, input("elements of array:-").strip()))
+# print(n)
 
 
     
