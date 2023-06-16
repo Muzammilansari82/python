@@ -75,5 +75,36 @@
 # print(n)
 
 
+
+task complete
+
+
+dic1 = {'1': {'course': 'python', 'time': '9 to 11',
+#               'key': {'date': '16/06/2023'}},
+#         '2': {'course': 'php', 'time': '11 to 1',
+#               'key': {'date': '16/06/2023'}}}
+
+
+# for p in dic1:
+#     if p  == "key":
+#             break
+#     print(p)
+    
+#     for q in dic1[p]:
+
+#         if q  == "key":
+#             break
+#         print(q)
+#         print(dic1[p][q])
+
+
+#     for m in dic1[p][q]:
+
+#         print(dic1[p][q][m])
+        
+# # i=  (dic1[p][q])   
+# # x = (dic1[p][q][m])
+
+# # a = ((m), ':', (dic1[p][q][m]))
     
       
