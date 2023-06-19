@@ -1,0 +1,36 @@
+import pandas as pd
+df= pd.DataFrame(
+    {
+    "name":[
+        "Muzammil Ansari",
+        "Abdul Wasay",
+        "Sehroz Awan",
+    ],
+        "age":[18,20,22,],
+        "gender":["male","male","male",],
+}
+)
+df
+df.['age']
+abc=pd.read_csv("abc.csv")
+abc
+abc.describe()
+a=abc[0:100]
+a
+b=a[0:100][["PassengerId" ,"Name", "Age"]]
+b
+b["Age"].mean()
+p=abc["Age"][0:25].mean()
+s=abc["Age"][0:25].median()
+
+d=abc["Age"][0:25].mode()
+j=abc["Age"][0:25].std()
+
+
+print("mean is ",p)
+print("median is " ,s)
+print("mode is " ,d)
+print("Standard Devision is", j)
+
+# x=z["Age"].mean()
+# x
