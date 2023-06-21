@@ -1,0 +1,93 @@
+import pandas as pd
+# df = pd.DataFrame({"foo": ['one', 'one', 'two', 'two'],
+#                   "bar": ['A', 'A', 'B', 'C'],
+#                   "baz": [1, 2, 3, 4]})
+
+# print(df)                   
+# df = pd.DataFrame({
+#       "lev1": [1, 1, 1, 2, 2, 2],
+#       "lev2": [1, 1, 2, 1, 1, 2],
+#       "lev3": [1, 2, 1, 2, 1, 2],
+#       "lev4": [1, 2, 3, 4, 5, 6],
+#       "values": [0, 1, 2, 3, 4, 5]})
+       
+# print(df)
+# print(".")
+# a=df.pivot(index="lev1", columns=["lev2", "lev3"], values="values")
+# print(a)
+# print(".")
+# b=df.pivot(index=["lev1", "lev2"], columns=["lev3"], values="values")
+# print(b)
+# print(".")
+# df = pd.DataFrame({'A': ['John', 'Boby', 'Mina', 'jack'],
+#       'B': ['Masters', 'Graduate', 'Graduate','Mphill'],
+#       'C': [27, 23, 21,32]})
+  
+# print(df)
+# a=df.pivot(index ='A', columns ='B', values =['C', 'A'])
+# print(a)
+# df = pd.DataFrame({'foo': ['one', 'one', 'one', 'two', 'two',
+#                           'two'],
+#                   'bar': ['A', 'B', 'C', 'A', 'B', 'C'],
+#                   'baz': [1, 2, 3, 4, 5, 6],
+#                   'zoo': ['x', 'y', 'z', 'q', 'w', 't']})
+# print(df)
+
+
+# q= df.pivot(index='foo', columns='bar', values='baz')
+# print(q)
+# w= df.pivot(index='foo', columns='bar')['baz']
+# print(w)
+# e=df.pivot(index='foo', columns='bar', values=['baz', 'zoo'])
+# print(e)
+
+# df = pd.DataFrame({
+#       "lev1": [1, 1, 1, 2, 2, 2],
+#       "lev2": [1, 1, 2, 1, 1, 2],
+#       "lev3": [1, 2, 1, 2, 1, 2],
+#       "lev4": [1, 2, 3, 4, 5, 6],
+#       "values": [0, 1, 2, 3, 4, 5]})
+# print(df)
+# r=df.pivot(index="lev1", columns=["lev2", "lev3"], values="values")
+# print(r)
+# t=df.pivot(index=["lev1", "lev2"], columns=["lev3"], values="values")
+# print(t)
+# df = pd.DataFrame({"foo": ['one', 'one', 'two', 'two'],
+#                   "bar": ['A', 'A', 'B', 'C'],
+#                   "baz": [1, 2, 3, 4]})
+# print(df)
+
+#group of
+# df = pd.DataFrame({'Animal': ['Falcon', 'Falcon',
+#                               'Parrot', 'Parrot'],
+#                   'Max Speed': [380., 370., 24., 26.]})
+# print(df)
+# y=df.groupby(['Animal']).mean()
+# print(y)
+
+# arrays = [['Falcon', 'Falcon', 'Parrot', 'Parrot'],
+#           ['Captive', 'Wild', 'Captive', 'Wild']]
+# index = pd.MultiIndex.from_arrays(arrays, names=('Animal', 'Type'))
+# z=df = pd.DataFrame({'Max Speed': [390., 350., 30., 20.]},
+#                   index=index)
+# print(z)
+
+# c=df.groupby(level=0).mean()
+# print(c)
+# d=df.groupby(level=1).mean()
+# print(d)
+# b=df.groupby(level="Type").sum()
+# print(b)
+# l = [[1, 2, 3], [1, None, 4], [2, 1, 3], [1, 2, 2]]
+# df = pd.DataFrame(l, columns=["a", "b", "c"])
+# print(df)
+# a=df.groupby(by=["b"]).sum()
+# print(a)
+# b=df.groupby(by=["b"], dropna=False).sum()
+# print(b)
+# l = [["a", 12, 12], [None, 12.3, 33.], ["b", 12.3, 123], ["a", 1, 1]]
+# df = pd.DataFrame(l, columns=["a", "b", "c"])
+# print(df)
+
+
+
